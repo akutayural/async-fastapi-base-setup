@@ -18,7 +18,10 @@ This project is a template for building asynchronous FastAPI applications integr
 
 ## **Project Overview**
 
-This repository provides a baseline setup for asynchronous FastAPI applications with PostgreSQL. It's designed for scalability, maintainability, and ease of use, making it ideal for API development.
+
+Async FastAPI and async PostgreSQL ready setup with User table and authentication. Also, some CRUD examples can be found in the repository. This project can be used for educational purposes as well as ease of project setup for developers.
+
+This project is designed to help developers kick-start their backend projects with a robust and scalable base. The repository includes essential features like JWT authentication, modular routing, and asynchronous database handling with PostgreSQL.
 
 ---
 
