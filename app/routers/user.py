@@ -19,5 +19,5 @@ async def get(user_id: int = Path(), db: Session = Depends(get_async_db)):
 @router.post("", response_model=ResponseModel)
 async def create(user_in: CreateUserSchema, db: Session = Depends(get_async_db)):
     db_obj = await user_crud.create(db=db, obj_in=user_in)
-    return ResponseModel()
+    return ResponseModel(data=db_obj.__dict__)
 
