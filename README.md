@@ -1,4 +1,4 @@
-# Async FastAPI and Async PostGreSql ready Setup - Base Project
+# Async FastAPI and Async PostgreSQL Ready Setup - Base Project
 
 
 
