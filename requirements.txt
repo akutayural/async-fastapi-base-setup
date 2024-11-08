@@ -14,3 +14,4 @@ jwt
 python-multipart
 PyJWT
 greenlet
+asyncpg
