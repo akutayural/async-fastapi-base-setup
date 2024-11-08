@@ -115,4 +115,4 @@ The project is already deployed on a live web server. You can directly access th
 
 [**Live Swagger API**](https://user-auth-crru.onrender.com/docs#/)
 
-
+Free Hosting, so inactivity can result in server shutdown. If the link doesn't work, try again later.
