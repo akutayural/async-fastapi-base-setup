@@ -19,7 +19,7 @@ This project is a template for building asynchronous FastAPI applications integr
 ## **Project Overview**
 
 
-Async FastAPI and async PostgreSQL ready setup with User table and authentication. Also, some CRUD examples can be found in the repository. This project can be used for educational purposes as well as ease of project setup for developers.
+Async FastAPI and async PostgreSQL are ready to be set up with the user table and authentication. Also, some CRUD examples can be found in the repository. This project can be used for educational purposes and ease of project setup for developers.
 
 This project is designed to help developers kick-start their backend projects with a robust and scalable base. The repository includes essential features like JWT authentication, modular routing, and asynchronous database handling with PostgreSQL.
 
@@ -27,7 +27,7 @@ This project is designed to help developers kick-start their backend projects wi
 
 ## **Features**
 
-- **Asynchronous Programming**: Powered by FastAPI, SQLAlchemy (async), and `asyncpg`.
+- **Asynchronous Programming**: Powered by FastAPI, SQLAlchemy (async), and `psycopg`.
 - **JWT Authentication**: Secure token-based authentication system.
 - **Modular Design**: Separate layers for models, routers, schemas, and CRUD operations.
 - **Swagger UI**: Interactive API documentation at `/docs`.
