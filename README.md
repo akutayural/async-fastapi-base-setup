@@ -63,6 +63,7 @@ async-fastapi-base-setup/
 ├── config.py                 # Environment variables and configuration
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # Documentation
+```
 
 ## **Setup Instructions**
 Step 1: Clone the Repository
