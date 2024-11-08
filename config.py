@@ -6,7 +6,7 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):
     # POSTGRESQL
     POSTGRESQL_USER: str = os.getenv("POSTGRESQL_USER", "kutay")
-    POSTGRESQL_PASSWORD: str = os.getenv("POSTGRESQL_ROOT_PASSWORD", "")
+    POSTGRESQL_PASSWORD: str = os.getenv("POSTGRESQL_ROOT_PASSWORD", "123456")
     POSTGRESQL_HOST: str = os.getenv("POSTGRESQL_HOST", "127.0.0.1")
     POSTGRESQL_PORT: str = os.getenv("POSTGRESQL_PORT", "5432")
     POSTGRESQL_DATABASE: str = os.getenv("POSTGRESQL_DATABASE", "testdb")
