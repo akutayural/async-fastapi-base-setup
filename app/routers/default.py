@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from fastapi.responses import PlainTextResponse
 
-router = APIRouter()
+router = APIRouter(tags=["Default"])
 
 
 @router.get("/", response_class=PlainTextResponse)
