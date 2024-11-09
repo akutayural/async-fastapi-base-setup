@@ -1,4 +1,4 @@
-# **Async FastAPI with PostgreSQL Boilerplate**
+# **FastAPI Boilerplate with Async PostgreSQL CRUD**
 
 This project is a template for building asynchronous FastAPI applications integrated with PostgreSQL. It includes pre-configured CRUD operations, authentication, and a modular structure to jump-start your development.
 
