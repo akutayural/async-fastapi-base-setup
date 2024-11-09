@@ -46,6 +46,8 @@ async-fastapi-base-setup/
 │   ├── cruds/                # CRUD operations
 │   │   ├── base.py           # Generic CRUDBase class
 │   │   └── user.py           # User-specific CRUD
+│   ├── helpers/              # Helpers
+│   │   ├── __init__.py	      # Helpers init
 │   ├── models/               # SQLAlchemy database models
 │   │   ├── base.py           # Base model (common fields)
 │   │   └── user.py           # User-specific model
@@ -54,6 +56,8 @@ async-fastapi-base-setup/
 │   │   ├── user.py           # User routes
 │   │   ├── default.py        # Default routes
 │   │   └── __init__.py       # Router initialization
+│   ├── integrations/         # Integrations
+│   │   ├── __init__.py	      # Integrations init
 │   ├── schemas/              # Pydantic models for validation
 │   │   ├── user.py           # User schemas (Create, Update, etc.)
 │   │   └── __init__.py       # ResponseModel and enums
